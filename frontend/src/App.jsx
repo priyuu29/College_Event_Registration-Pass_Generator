@@ -1,16 +1,12 @@
-import { useEffect, useState } from "react";
+import Register from "./pages/Register";
+import Scan from "./pages/Scan";
 
 function App() {
-  const [msg, setMsg] = useState("");
-
-  useEffect(() => {
-    fetch("http://localhost:8080/api/test")
-      .then(res => res.text())
-      .then(data => setMsg(data));
-  }, []);
-
   return (
-    <h1 className="text-2xl">{msg}</h1>
+    <div>
+      <Register />
+      <Scan />
+    </div>
   );
 }
 
