@@ -25,12 +25,12 @@ A full-stack web application for managing college event registrations and genera
   <img src="frontend/src/assets/2.png" width="700"/>
 </p>
 
-### 💳 Payment Page
+### 💳 Scanner Page
 <p align="center">
   <img src="frontend/src/assets/3.png" width="700"/>
 </p>
 
-### 🎟️ Generated Ticket / Pass
+### 🎟️ Admin Dashboard
 <p align="center">
   <img src="frontend/src/assets/4.png" width="700"/>
 </p>
